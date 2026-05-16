@@ -77,7 +77,7 @@ This project implements a scalable cloud analytics architecture, transforming ra
 ```
 
 ### Architecture Diagram
-![Architecture Workflow]([INSERT ARCHITECTURE IMAGE])
+![Architecture Workflow](/architecture/architecture_workflow.png)
 
 ## 🛠️ Technology Stack
 
@@ -106,20 +106,14 @@ hospitality-business-intelligence-analytics/
 ├── sql/
 │   ├── average_lead_time_by_channel.sql # SQL View: Lead time analysis
 │   ├── average_length_of_stay.sql       # SQL View: Stay duration analysis
-│   ├── average_price_per_room_type.sql  # SQL View: Pricing behavior
-│   ├── daily_check_in_volume.sql        # SQL View: Operational load
 │   ├── monthly_bookings_2025.sql        # SQL View: Trend analysis
-│   ├── most_booked_room.sql             # SQL View: Room demand
 │   ├── reservation_status_counts.sql    # SQL View: Booking conversions
 │   ├── room_type_channel_bookings.sql   # SQL View: Channel distribution
 │   ├── top_revenue_channel.sql          # SQL View: Financial performance
 │   └── total_revenue.sql                # SQL View: Top-level revenue KPI
 │
 ├── dashboard/
-│   ├── dashboard_overview.png           # Looker Studio overall view
-│   ├── booking_trend.png                # Looker Studio trend page
-│   ├── channel_analysis.png             # Looker Studio channel page
-│   └── reservation_analysis.png         # Looker Studio reservation page
+│   ├── Hotel_Insight_page-0001.png           # Looker Studio overall view
 │
 ├── architecture/
 │   └── architecture_workflow.png        # BI pipeline architecture diagram
@@ -148,8 +142,8 @@ The Looker Studio dashboard was tailored for hospitality executives, offering mo
 - **Reservation Status Monitoring:** Conversion and cancellation tracking.
 
 ### Dashboard Screenshots
-![Dashboard Overview]([INSERT DASHBOARD IMAGE])
-*(Replace placeholder with actual dashboard screenshot)*
+![Dashboard Overview](/dashboard/Hotel_Insight_page-0001.jpg)
+
 
 ## 💡 Key Business Insights
 
@@ -186,7 +180,7 @@ This project successfully demonstrates the power of a modern cloud BI stack in t
 
 ## 🔗 Project Links
 
-- **Looker Studio Dashboard:** [https://datastudio.google.com/reporting/dd18648f-c697-4ec3-838f-a198dea5bd0c/page/QgOyF]
+- **Looker Studio Dashboard:** [See dashboard here](https://datastudio.google.com/reporting/dd18648f-c697-4ec3-838f-a198dea5bd0c/page/QgOyF)
 - **Detailed Case Study:** [Read the Business Case Study in Docs](./docs/business_case_study.md)
 - **Medium Article:** [Read the write-up on Medium](https://iannarsa.medium.com/building-a-hospitality-business-intelligence-workflow-using-python-bigquery-and-looker-studio-923d9d420b40) 
 - **LinkedIn:** [Join the discussion on LinkedIn](https://www.linkedin.com/in/septian-narsa-putra/)
