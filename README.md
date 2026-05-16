@@ -24,7 +24,6 @@
 - [Business Recommendations](#-business-recommendations)
 - [Challenges & Learnings](#-challenges--learnings)
 - [Future Improvements](#-future-improvements)
-- [Installation & Setup](#-installation--setup)
 - [Professional Conclusion](#-professional-conclusion)
 - [Project Links](#-project-links)
 
@@ -97,10 +96,9 @@ This project implements a scalable cloud analytics architecture, transforming ra
 hospitality-business-intelligence-analytics/
 │
 ├── README.md                           # Project documentation and executive summary
-├── requirements.txt                    # Python dependencies
 │
 ├── data/
-│   └── sample_dataset.csv              # Raw/Sample hospitality dataset
+│   └── out_hotel_booking_1000_with_checkout.csv              # Raw/Sample hospitality dataset
 │
 ├── notebook/
 │   └── hospitality_bi_analysis.ipynb   # Python preprocessing and EDA workflow
@@ -177,32 +175,10 @@ The Looker Studio dashboard was tailored for hospitality executives, offering mo
 ## 🔮 Future Improvements
 
 - Implementation of predictive machine learning models for occupancy forecasting.
-- Integration of automated pipeline orchestration (e.g., Apache Airflow, dbt).
+- Integration of automated pipeline orchestration (e.g., Apache Airflow).
 - Real-time streaming analytics for intraday operational monitoring.
 - Deeper customer segmentation and lifetime value (CLV) analysis.
 
-## 💻 Installation & Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/hospitality-business-intelligence-analytics.git
-   cd hospitality-business-intelligence-analytics
-   ```
-
-2. **Python Environment Setup:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Data Preparation:**
-   - Execute the Jupyter Notebook `notebook/hospitality_bi_analysis.ipynb` to clean and transform the `data/sample_dataset.csv`.
-
-4. **BigQuery Deployment:**
-   - Load the cleaned output dataset into your Google BigQuery project.
-   - Execute the SQL scripts in the `sql/` directory to generate the necessary reporting Views.
-
-5. **Looker Studio:**
-   - Connect a new Looker Studio report to your BigQuery Views.
 
 ## 🏁 Professional Conclusion
 
@@ -210,10 +186,10 @@ This project successfully demonstrates the power of a modern cloud BI stack in t
 
 ## 🔗 Project Links
 
-- **Looker Studio Dashboard:** [INSERT LOOKER STUDIO LINK]
+- **Looker Studio Dashboard:** [https://datastudio.google.com/reporting/dd18648f-c697-4ec3-838f-a198dea5bd0c/page/QgOyF]
 - **Detailed Case Study:** [Read the Business Case Study in Docs](./docs/business_case_study.md)
-- **Medium Article:** [Read the full write-up on Medium](#) 
-- **LinkedIn Post:** [Join the discussion on LinkedIn](#)
+- **Medium Article:** [Read the write-up on Medium](https://iannarsa.medium.com/building-a-hospitality-business-intelligence-workflow-using-python-bigquery-and-looker-studio-923d9d420b40) 
+- **LinkedIn:** [Join the discussion on LinkedIn](https://www.linkedin.com/in/septian-narsa-putra/)
 
 ---
 *Developed by a passionate Business Intelligence Engineer dedicated to turning data into actionable business value.*
