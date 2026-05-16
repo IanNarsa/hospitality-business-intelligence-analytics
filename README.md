@@ -5,6 +5,7 @@
 ![Google BigQuery](https://img.shields.io/badge/Google%20BigQuery-66CCFF?style=for-the-badge&logo=googlebigquery&logoColor=white)
 ![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
+![Generative AI](https://img.shields.io/badge/Generative%20AI-4285F4?style=for-the-badge&logo=Gemini&logoColor=white)
 
 > **An end-to-end cloud-based Business Intelligence workflow for hospitality booking analytics using Python, Google BigQuery, SQL Views, and Looker Studio.**
 
@@ -89,6 +90,7 @@ This project implements a scalable cloud analytics architecture, transforming ra
 | **Transformation Layer** | BigQuery SQL Views | Reusable business logic and aggregations |
 | **Data Visualization** | Looker Studio | Executive dashboarding and reporting |
 | **Cloud Platform** | Google Cloud Platform (GCP)| Cloud infrastructure ecosystem |
+| **Generative AI** | Google Antigravity, Gemini, ChatGPT | Code generation and assistance |
 
 ## 📂 Project Structure
 
