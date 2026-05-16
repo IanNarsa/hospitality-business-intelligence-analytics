@@ -1,4 +1,0 @@
-# Dependencies
-pandas-gbq
-pandas
-google-cloud-bigquery
