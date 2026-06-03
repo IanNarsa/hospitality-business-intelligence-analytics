@@ -183,6 +183,7 @@ This project successfully demonstrates the power of a modern cloud BI stack in t
 ## 🔗 Project Links
 
 - **Looker Studio Dashboard:** [See dashboard here](https://datastudio.google.com/reporting/dd18648f-c697-4ec3-838f-a198dea5bd0c/page/QgOyF)
+- **Deep Dive Analytics:** [See notebook analystics here](./notebook/hospitality_bi_analysis.ipynb)
 - **Detailed Case Study:** [Read the Business Case Study in Docs](./docs/business_case_study.md)
 - **Medium Article:** [Read the write-up on Medium](https://iannarsa.medium.com/building-a-hospitality-business-intelligence-workflow-using-python-bigquery-and-looker-studio-923d9d420b40) 
 - **LinkedIn:** [Join the discussion on LinkedIn](https://www.linkedin.com/in/septian-narsa-putra/)
